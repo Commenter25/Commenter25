@@ -1,9 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 753.55 113.76">
-<style>@media ( prefers-color-scheme: dark ) {
+<style>@keyframes c { 50% { filter: brightness(10%) } }
+@media only screen and ( prefers-color-scheme: dark ) {
 	@keyframes c { 50% { filter: brightness(400%) } }
-}
-@media print, ( prefers-color-scheme: light ) {
-	@keyframes c { 50% { filter: brightness(10%) } }
 }</style>
 <defs><linearGradient id="c" x2="753.552" y1="56.88" y2="56.88" gradientUnits="userSpaceOnUse">
 	<stop offset="0" stop-color="#252525"/>
