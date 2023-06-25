@@ -1,0 +1,17 @@
+name: Leave an issue
+description: "Say what you want to say!"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hello! If for some bizarre reason, GitHub is the only platform you have in common with me, then you can contact me here!
+        However, please note that anything you say here will be public for anyone to see, and it *cannot be deleted*, even by me.
+        So please, ***do not say anything private or confidential!*** Ideally, you should use this to find somewhere else we can talk.
+
+  - type: textarea
+    id: whathapen
+    attributes:
+      label: "What would you like to say?"
+      placeholder: "Say what you want to say!"
+    validations:
+      required: true
